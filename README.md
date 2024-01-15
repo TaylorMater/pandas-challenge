@@ -5,34 +5,56 @@ Riley Taylor
 2024-Jan-15
 
 
-If you are my grader, please let me know what it is you are looking for in a README. I can be more or less detailed and I can find a coding standard/readme structure of preference if you like. For the time being, I'm sort of just throwing sources and basic summaries of my approach into this. 
+# Report:
+---------
 
 
-## 
+
+## District Analysis
+
+*Setup and related info*
+
+
+
+## School Analysis
 
 *Setup and related info*
 
 
-
-## 
-
-*Setup and related info*
-
- 
-
-## Sources
+## Highest-Performing Schools (by % Overall Passing)
 
 
-### School Summary 
+## Lowest-Performing Schools (by % Overall Passing)
+
+
+## Math Scores by Grade
+
+
+## Reading Scores by Grade
+
+
+## Scores by School Spending
+
+
+## Scores by School Size
+
+
+## Scores by School Type
+
+
+
+------------------------
+
+# Sources
+
+
+### District Analysis
 
 python - Counting unique values in a column in pandas dataframe like in Qlik? - Stack Overflow
 https://stackoverflow.com/questions/45759966/counting-unique-values-in-a-column-in-pandas-dataframe-like-in-qlik
 
 pandas.DataFrame.groupby — pandas 2.1.4 documentation
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html
-
-sum of a column in pandas - Google Search
-https://www.google.com/search?q=sum+of+a+column+in+pandas&rlz=1C1CHBF_enUS929US929&oq=sum+of+a+column+&gs_lcrp=EgZjaHJvbWUqDAgBEAAYFBiHAhiABDIGCAAQRRg5MgwIARAAGBQYhwIYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgyODkzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
 python - How to sum values across groups without summing duplicates - Stack Overflow
 https://stackoverflow.com/questions/73749095/how-to-sum-values-across-groups-without-summing-duplicates
@@ -66,3 +88,47 @@ https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/
 
 python - Pandas: Using variables to create dataframe with one row and column names from variable names - Stack Overflow
 https://stackoverflow.com/questions/44118416/pandas-using-variables-to-create-dataframe-with-one-row-and-column-names-from-v
+
+
+### School Summary
+
+
+python - Remove duplicates by columns A, keeping the row with the highest value in column B - Stack Overflow
+https://stackoverflow.com/questions/12497402/remove-duplicates-by-columns-a-keeping-the-row-with-the-highest-value-in-column
+
+pandas.DataFrame.count — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.count.html
+
+python - How to count the number of group elements with pandas - Stack Overflow
+https://stackoverflow.com/questions/38187777/how-to-count-the-number-of-group-elements-with-pandas
+
+Are Python variables pointers? Or else, what are they? - Stack Overflow
+https://stackoverflow.com/questions/13530998/are-python-variables-pointers-or-else-what-are-they
+
+pandas.DataFrame.rename — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html
+
+python - Pandas Merge - How to avoid duplicating columns - Stack Overflow
+https://stackoverflow.com/questions/19125091/pandas-merge-how-to-avoid-duplicating-columns
+
+python - What is the difference between join and merge in Pandas? - Stack Overflow
+https://stackoverflow.com/questions/22676081/what-is-the-difference-between-join-and-merge-in-pandas
+
+python - How to (re)name an empty column header in a pandas dataframe without exporting to csv - Stack Overflow
+https://stackoverflow.com/questions/41096611/how-to-rename-an-empty-column-header-in-a-pandas-dataframe-without-exporting-t
+
+python - Creating new dataframes using groupby - Stack Overflow
+https://stackoverflow.com/questions/51091331/creating-new-dataframes-using-groupby
+
+python - How to create multiple dataframes from pandas groupby object - Stack Overflow
+https://stackoverflow.com/questions/35274700/how-to-create-multiple-dataframes-from-pandas-groupby-object
+
+python - Is there a way to create a single column pandas DataFrame from list without copying the list? - Stack Overflow
+https://stackoverflow.com/questions/51329934/is-there-a-way-to-create-a-single-column-pandas-dataframe-from-list-without-copy
+
+How to Merge Two Pandas DataFrames on Index?
+https://www.tutorialspoint.com/how-to-merge-two-pandas-dataframes-on-index
+
+python - Create new column based on values from other columns / apply a function of multiple columns, row-wise in Pandas - Stack Overflow
+https://stackoverflow.com/questions/26886653/create-new-column-based-on-values-from-other-columns-apply-a-function-of-multi
+
