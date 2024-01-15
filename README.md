@@ -4,6 +4,10 @@ UTA Data Bootcamp Module 4
 Riley Taylor  
 2024-Jan-15
 
+**setup and related info**
+
+The primary notebook is saved as "PyCitySchools.ipynb" in the "PyCitySchools" directory. This is a renamed copy of the starter code notebook provided, and I filled in/added code/expressions as needed to complete the assignment. The csv's in question are saved in "PyCitySchools/Resources". Analysis is provided in the README below as well as in the Analysis portion of the python notebook. The "Images" directory was included in the starter code, but I have removed them as I didn't see how it was related to the assignment. 
+
 
 # Report:
 
@@ -12,13 +16,13 @@ Riley Taylor
 
 ## District Analysis
 
-*Setup and related info*
+
 
 
 
 ## School Analysis
 
-*Setup and related info*
+
 
 
 ## Highest-Performing Schools (by % Overall Passing)
@@ -48,7 +52,7 @@ Riley Taylor
 # Sources
 
 
-### District Analysis
+### For District Analysis Portion of Project
 
 python - Counting unique values in a column in pandas dataframe like in Qlik? - Stack Overflow
 https://stackoverflow.com/questions/45759966/counting-unique-values-in-a-column-in-pandas-dataframe-like-in-qlik
@@ -90,7 +94,7 @@ python - Pandas: Using variables to create dataframe with one row and column nam
 https://stackoverflow.com/questions/44118416/pandas-using-variables-to-create-dataframe-with-one-row-and-column-names-from-v
 
 
-### School Summary
+### For School Summary Portion of the Project
 
 
 python - Remove duplicates by columns A, keeping the row with the highest value in column B - Stack Overflow
@@ -132,3 +136,29 @@ https://www.tutorialspoint.com/how-to-merge-two-pandas-dataframes-on-index
 python - Create new column based on values from other columns / apply a function of multiple columns, row-wise in Pandas - Stack Overflow
 https://stackoverflow.com/questions/26886653/create-new-column-based-on-values-from-other-columns-apply-a-function-of-multi
 
+
+### For Remainer of Project:
+
+pandas.DataFrame.sort_values — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
+
+Group by: split-apply-combine — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/user_guide/groupby.html#transformation
+
+python - Change column names in Pandas Dataframe from a list - Stack Overflow
+https://stackoverflow.com/questions/45468630/change-column-names-in-pandas-dataframe-from-a-list
+
+pandas.cut — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.cut.html
+
+pandas.Series.map — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.Series.map.html
+
+Trying to remove commas and dollars signs with Pandas in Python - Stack Overflow
+https://stackoverflow.com/questions/38516481/trying-to-remove-commas-and-dollars-signs-with-pandas-in-python
+
+Python Try Except
+https://www.w3schools.com/python/python_try_except.asp
+
+pandas.Series.groupby — pandas 2.1.4 documentation
+https://pandas.pydata.org/docs/reference/api/pandas.Series.groupby.html#pandas.Series.groupby
