@@ -8,7 +8,19 @@ Riley Taylor
 
 The primary notebook is saved as "PyCitySchools.ipynb" in the "PyCitySchools" directory. This is a renamed copy of the starter code notebook provided, and I filled in/added code/expressions as needed to complete the assignment. The csv's in question are saved in "PyCitySchools/Resources". Analysis is provided in the README below as well as in the Analysis portion of the python notebook. The "Images" directory was included in the starter code, but I have removed them as I didn't see how it was related to the assignment. Sources are also enumerated below, although I didn't bother to explain their use in the project beyond their title. The majority of the sources were used for general documentation/language explorations/best practices rather than code snippets. One exception - undoing formatting like the following:
 ```
-    .map("${:,.2f}".format)
+{
+    per_school_summary["Per Student Budget"] = per_school_summary["Per Student Budget"].map("${:,.2f}".format)
+...
+...
+    try:
+        school_spending_df['Per Student Budget'] = school_spending_df['Per Student Budget'].str.replace(',','')
+        school_spending_df['Per Student Budget'] = school_spending_df['Per Student Budget'].str.replace('$','')
+        school_spending_df['Per Student Budget'] = school_spending_df['Per Student Budget'].astype(float)
+    except:
+        #means that we already applied the above
+        print('No formatting applied, assuming data is already properly formatted')
+}
+
 ```
 We had examples like it in class to replicate this behavior, but it was faster to check online than to peek through past class notes. 
 
