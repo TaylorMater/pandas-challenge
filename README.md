@@ -8,9 +8,7 @@ Riley Taylor
 
 The primary notebook is saved as "PyCitySchools.ipynb" in the "PyCitySchools" directory. This is a renamed copy of the starter code notebook provided, and I filled in/added code/expressions as needed to complete the assignment. The csv's in question are saved in "PyCitySchools/Resources". Analysis is provided in the README below as well as in the Analysis portion of the python notebook. The "Images" directory was included in the starter code, but I have removed them as I didn't see how it was related to the assignment. Sources are also enumerated below, although I didn't bother to explain their use in the project beyond their title. The majority of the sources were used for general documentation/language explorations/best practices rather than code snippets. One exception - undoing formatting like the following:
 ```
-{
     .map("${:,.2f}".format)
-}
 ```
 We had examples like it in class to replicate this behavior, but it was faster to check online than to peek through past class notes. 
 
