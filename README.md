@@ -4,7 +4,7 @@ UTA Data Bootcamp Module 4
 Riley Taylor  
 2024-Jan-15
 
-**setup and related info**
+**Setup and Related Info**
 
 The primary notebook is saved as "PyCitySchools.ipynb" in the "PyCitySchools" directory. This is a renamed copy of the starter code notebook provided, and I filled in/added code/expressions as needed to complete the assignment. The csv's in question are saved in "PyCitySchools/Resources". Analysis is provided in the README below as well as in the Analysis portion of the python notebook. The "Images" directory was included in the starter code, but I have removed them as I didn't see how it was related to the assignment. 
 
